@@ -1,0 +1,13 @@
+[ {
+  "nome" : "Admin",
+  "email" : "admin@puc.com",
+  "senha" : "12345"
+}, {
+  "nome" : "Paulo César Silva Monteiro",
+  "email" : "paulocsm2006@gmail.com",
+  "senha" : "Pc#070906"
+}, {
+  "nome" : "Roberto",
+  "email" : "roberto@gmail.com",
+  "senha" : "Rm12345"
+} ]
