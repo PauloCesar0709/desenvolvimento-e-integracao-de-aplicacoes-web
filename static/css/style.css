@@ -1,0 +1,36 @@
+header {
+    border-bottom: black solid 2px;
+}
+
+.titulo-site {
+    margin: 2rem;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.filtros-container {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+}
+
+.grade-candidatos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+}
+
+.card{
+    display: block;
+}
+
+.foto-candidato {
+width: 100%;
+aspect-ratio: 161 / 225;
+object-fit: cover;
+}
+
