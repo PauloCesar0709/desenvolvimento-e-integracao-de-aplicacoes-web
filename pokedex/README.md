@@ -130,7 +130,7 @@ Não é necessário criar arquivos `.env`: o projeto não usa variáveis de ambi
 
 ```bash
 git clone https://github.com/PauloCesar0709/desenvolvimento-e-integracao-de-aplicacoes-web.git
-cd desenvolvimento-e-integracao-de-aplicacoes-web/pokedex-react
+cd desenvolvimento-e-integracao-de-aplicacoes-web/pokedex
 ```
 
 2. **Instale as dependências:**
@@ -232,7 +232,7 @@ pokedex-react/
 
 ## 👥 Autor
 
-| 👤 Nome | :octocat: GitHub | 💼 LinkedIn | 📤 E-mail |
+| 👤 Nome | :octocat: GitHub | 💼 LinkedIn |
 | :--- | :---: | :---: | :---: |
 | **Paulo Cesar** | [GitHub](https://github.com/PauloCesar0709) | [LinkedIn](https://www.linkedin.com/in/paulo-césar-desenvolvedor) |
 
