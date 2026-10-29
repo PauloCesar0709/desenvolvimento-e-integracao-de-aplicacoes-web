@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Chakra Petch", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+
+  --color-dex-red: #d92d27;
+  --color-dex-red-dark: #a51d1d;
+  --color-dex-shell: #1e1f26;
+  --color-dex-panel: #2a2c36;
+  --color-dex-screen: #eef3e8;
+  --color-dex-lens: #2f9bf0;
+  --color-dex-yellow: #ffcb05;
+  --color-dex-green: #3ddc84;
+}
+
+body {
+  @apply bg-dex-shell font-sans text-slate-100 antialiased;
+  background-image: radial-gradient(circle at 1px 1px, rgb(255 255 255 / 0.045) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+/* Único momento de movimento "automático": a lente acende ao carregar */
+@keyframes lens-boot {
+  0% { opacity: 0.25; filter: brightness(0.6); }
+  60% { opacity: 1; filter: brightness(1.5); }
+  100% { opacity: 1; filter: brightness(1); }
+}
+.lens-boot { animation: lens-boot 1.1s ease-out both; }
+
+@keyframes modal-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.modal-in { animation: modal-in 0.22s ease-out both; }
+
+:focus-visible {
+  outline: 3px solid var(--color-dex-yellow);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lens-boot, .modal-in { animation: none; }
+  * { transition-duration: 0.01ms !important; }
+}
