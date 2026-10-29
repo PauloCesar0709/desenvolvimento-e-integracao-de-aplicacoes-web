@@ -233,7 +233,7 @@ pokedex-react/
 ## 👥 Autor
 
 | 👤 Nome | :octocat: GitHub | 💼 LinkedIn |
-| :--- | :---: | :---: | :---: |
+| :--- | :---: | :---: |
 | **Paulo Cesar** | [GitHub](https://github.com/PauloCesar0709) | [LinkedIn](https://www.linkedin.com/in/paulo-césar-desenvolvedor) |
 
 ---
